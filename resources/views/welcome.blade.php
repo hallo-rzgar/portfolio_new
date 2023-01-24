@@ -23,7 +23,7 @@
 <div id="header">
     <div class="container">
         <nav>
-            <img src="images/logo.png" class="logo" alt="" />
+            <img src="{{asset('images/logo.png')}}" class="logo" alt="" />
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -46,7 +46,7 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="images/user.png" alt="" />
+                <img src="{{asset('images/user.png')}}" alt="" />
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
@@ -102,7 +102,7 @@
         <h1 class="sub-title">My work</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/work-1.png" alt="" />
+                <img src="{{asset('images/work-1.png')}}" alt="" />
                 <div class="layer">
                     <h3>Social media</h3>
                     <p>
@@ -114,7 +114,7 @@
                 </div>
             </div>
             <div class="work">
-                <img src="images/work-2.png" alt="" />
+                <img src="{{asset('images/work-2.png')}}" alt="" />
                 <div class="layer">
                     <h3>Social media</h3>
                     <p>
@@ -126,7 +126,7 @@
                 </div>
             </div>
             <div class="work">
-                <img src="images/work-3.png" alt="" />
+                <img src="{{asset('images/work-3.png')}}" alt="" />
                 <div class="layer">
                     <h3>Social media</h3>
                     <p>
