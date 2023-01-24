@@ -150,7 +150,7 @@
 <div id="contact">
     <div class="container">
         <div class="mobilecv">
-            <a href="images/my-cv.pdf" download="" class="btn bt2">Download CV</a>
+            <a href="images/Hallo.pdf" download="" class="btn bt2">Download CV</a>
         </div>
         <h1 class="sub-title">Contact me</h1>
         <div class="contactWidth">
@@ -165,7 +165,7 @@
                         <a href=""><i class="fab fa-linkedin"></i></a>
                     </div>
                     <div class="maxwidthcv">
-                        <a href="images/my-cv.pdf" download="" class="btn bt2"
+                        <a href="images/Hallo.pdf" download="" class="btn bt2"
                         >Download CV</a
                         >
                     </div>
@@ -308,7 +308,7 @@
           </div>
         </div>
       </div>`;
-        cv = `   <a href="images/my-cv.pdf" download="" class="btn bt2"
+        cv = `   <a href="images/Hallo.pdf" download="" class="btn bt2"
                 >Download CV</a
               >`;
         contactWidth = ` <div class="row">
@@ -325,7 +325,7 @@
                 <a href=""><i class="fab fa-linkedin"></i></a>
               </div>
               <div class="maxwidthcv">
-                  <a href="images/my-cv.pdf" download="" class="btn bt2"
+                  <a href="images/Hallo.pdf" download="" class="btn bt2"
                   >Download CV</a
                 >
               </div>
@@ -419,7 +419,7 @@
 
         $(".ismobile").html(a);
 
-        cv = `   <a href="images/my-cv.pdf" download="" class="btn bt2"
+        cv = `   <a href="images/Hallo.pdf" download="" class="btn bt2"
                 >Download CV</a
               >`;
         $(".mobilecv").html(cv);
