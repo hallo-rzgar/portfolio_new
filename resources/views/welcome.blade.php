@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     <script
         src="https://kit.fontawesome.com/020abdf102.js"
@@ -23,7 +23,7 @@
 <div id="header">
     <div class="container">
         <nav>
-            <img src="{{asset('images/logo.png')}}" class="logo" alt="" />
+            <img src="{{asset('images/logo.png')}}" class="logo" alt=""/>
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -35,9 +35,9 @@
         </nav>
 
         <div class="header-text">
-            <p>BackEnd Developer</p>
-            <h1 class="animi" data-text="Hi I'm hallo rzgar......."><br /></h1>
-            <h1 class="animii" data-text="from Erbil-Kurdistan"><br /></h1>
+            <p>Full Stack Developer</p>
+            <h1 class="animi" data-text="Hi I'm Hallo Rzgar......."><br/></h1>
+            <h1 class="animii" data-text="based in Kurdistan"><br/></h1>
         </div>
     </div>
 </div>
@@ -46,14 +46,14 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="{{asset('images/user.png')}}" alt="" />
+                <img src="{{asset('images/me.jpg')}}" alt=""/>
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
                 <p>
                     I'm a Web Developer with 3 plus years of knowledge to be able to
                     build Web Applications with programming languages like PHP with
-                    the Laravel in the back-end, and Front-end like Vanilla JS ,
+                    the Laravel in the back-end, and Front-end like React.js,
                     JQuery , Bootstrap and Tailwind from the ground up - information
                     gathering, planning, development, testing and delivery, and
                     maintenance. and I'm very passionate and dedicated to my work.
@@ -73,22 +73,22 @@
                 </div>
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
-                        <li><span>Front-End  </span> <br />Desinging Web/App Intarface</li>
-                        <li><span>Back-end</span> <br />Web services - APIs</li>
-                        <li><span>Database development </span> <br />Development and maintenance DB</li>
+                        <li><span>Front-End  </span> <br/>Desinging Web/App Intarface</li>
+                        <li><span>Back-end</span> <br/>Web services - APIs</li>
+                        <li><span>Database development </span> <br/>Development and maintenance DB</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="experience">
                     <ul>
-                        <li><span>2021 - current</span> <br />Full Stack Developer</li>
-                        <li><span>2021 - 2022</span> <br />BeckEnd developer </li>
-                        <li><span>2020 - 2021</span> <br />intership</li>
-                        <li><span>2019 - 2020</span> <br />System Management</li>
+                        <li><span>2021 - current</span> <br/>Full Stack Developer</li>
+                        <li><span>2021 - 2022</span> <br/>Beckend developer</li>
+                        <li><span>2020 - 2021</span> <br/>intership</li>
+                        <li><span>2019 - 2020</span> <br/>System Management</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="education">
                     <ul>
-                        <li><span>2017-2022</span> <br />Salahaddin University - Software engineer</li>
+                        <li><span>2017-2022</span> <br/>Salahaddin University - Software engineer</li>
                     </ul>
                 </div>
             </div>
@@ -102,39 +102,74 @@
         <h1 class="sub-title">My work</h1>
         <div class="work-list">
             <div class="work">
-                <img src="{{asset('images/work-1.png')}}" alt="" />
+                <img src="{{asset('images/vera_health.png')}}" height="100%" width="100%" alt=""/>
                 <div class="layer">
-                    <h3>Social media</h3>
+                    <h3>Vera Health System</h3>
                     <p>
-                        maa3 maaaaa3maa3 maaaaa3 maa3 maaaaa maa3 maaaaa3 maa3 maaaaa3
-                        maa3 maaaaa3maa3 maaaaa3 maa3 maaaaa maa3 maaaaa3 maa3 maaaaa3
-                        maa3 maaaaa3maa3 maa maa3 maa maa3 maaaaa maa3 maaaaa3
+                        This company was to take care of
+                        pharmaceutical business, so that it becomes a major key for importing and marketing medicine
+                        from all around the world to Iraq. , their aim is Minimizing
+                        the world for your health. they are one of the fast growing companies in the region, leading the
+                        market through a high quality network.
+
                     </p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="{{asset('images/work-2.png')}}" alt="" />
+                <img src="{{asset('images/palm.png')}}" height="100%" width="100%" alt=""/>
                 <div class="layer">
-                    <h3>Social media</h3>
+                    <h3>Palm Island Website </h3>
                     <p>
-                        maa3 maaaaa3maa3 maaaaa3 maa3 maaaaa maa3 maaaaa3 maa3 maaaaa3
-                        maa3 maaaaa3maa3 maaaaa3 maa3 maaaaa maa3 maaaaa3 maa3 maaaaa3
-                        maa3 maaaaa3maa3 maa maa3 maa maa3 maaaaa maa3 maaaaa3
+                        This website is full dynamic website some included features news , project , services , hiring ,
+                        all about this island and have admin dashboard can dynamically change whole website.
                     </p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="{{asset('images/work-3.png')}}" alt="" />
+                <img src="{{asset('images/hitex.png')}}" height="100%" width="100%" alt=""/>
                 <div class="layer">
-                    <h3>Social media</h3>
+                    <h3>HITEX CRM</h3>
                     <p>
-                        maa3 maaaaa3maa3 maaaaa3 maa3 maaaaa maa3 maaaaa3 maa3 maaaaa3
-                        maa3 maaaaa3maa3 maaaaa3 maa3 maaaaa maa3 maaaaa3 maa3 maaaaa3
-                        maa3 maaaaa3maa3 maa maa3 maa maa3 maaaaa maa3 maaaaa3
+                        The Hawler Information Technology Exhibition (HITEX) is an annual computer and electronics
+                        exhibition, and conference held at the Erbil International Fairground in Erbil, Kurdistan. HITEX
+                        is a new way for businesses to grow by showcasing their latest products, services and their most
+                        cutting-edge technological innovations from all over the world.
                     </p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="{{asset('images/iq.png')}}" height="100%" width="100%" alt=""/>
+                <div class="layer">
+                    <h3>Accounting & Inventory</h3>
+                    <p>
+                        Easiest accounting and inventory management application for local small business, with all major
+                        features related to inventory managed to improve your business growth.
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="{{asset('images/school.jpg')}}" height="100%" width="100%" alt=""/>
+                <div class="layer">
+                    <h3>School Management System </h3>
+                    <p>
+                        This system is developed for educational institutions like schools and colleges built on Laravel
+                        8 included 7 types of user accounts Librarian
+                        ,Accountant, ,Teacher ,Student, Parent.
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="{{asset('images/dal.png')}}" height="100%" width="100%" alt=""/>
+                <div class="layer">
+                    <h3>Cargo System</h3>
+                    <p>
+                        Cargo system is include all featured that any cargo company needed like , customer references ,
+                        container ,consignment , shipping and transactions.
+                    </p>
                 </div>
             </div>
         </div>
@@ -203,17 +238,18 @@
     </div>
 
     <div class="copyright">
-        <p> Copyright © 2022 All rights deserved  <i class="fas fa-heart"> </i></p>
+        <p> Copyright © 2022 All rights deserved <i class="fas fa-heart"> </i></p>
     </div>
 </div>
 
-<div id="preloader">
-    <div id="loader"></div>
-</div>
+{{--<div id="preloader">--}}
+{{--    <div id="loader"></div>--}}
+{{--</div>--}}
 
 <script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
+
     function opentab(tabname) {
         for (tablink of tablinks) {
             tablink.classList.remove("active-link");
@@ -230,6 +266,7 @@
     function openmenu() {
         sidemenu.style.right = "0";
     }
+
     function closemenu() {
         sidemenu.style.right = "-200px";
     }
@@ -242,7 +279,7 @@
 
     form.addEventListener("submit", (e) => {
         e.preventDefault();
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        fetch(scriptURL, {method: "POST", body: new FormData(form)})
             .then((response) => {
                 msg.innerHTML = "Message sent successfully";
                 setTimeout(() => {
@@ -293,6 +330,10 @@
                 <li>
                   <div class="progress percent100"></div>
                   <strong>JQuery</strong>
+                </li>
+                <li>
+                  <div class="progress percent100"></div>
+                  <strong>React.js</strong>
                 </li>
                 <li>
                   <div class="progress percent100"></div>
@@ -400,6 +441,10 @@
                 <li>
                   <div class="progress percent100"></div>
                   <strong>JQuery</strong>
+                </li>
+                    <li>
+                  <div class="progress percent100"></div>
+                  <strong>React.js</strong>
                 </li>
                 <li>
                   <div class="progress percent100"></div>
