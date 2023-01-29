@@ -335,13 +335,17 @@
                   <div class="progress percent100"></div>
                   <strong>React.js</strong>
                 </li>
-                <li>
+                 <li>
                   <div class="progress percent100"></div>
-                  <strong>MySQL-PostgreSql</strong>
+                  <strong>javascript</strong>
                 </li>
                 <li>
                   <div class="progress percent100"></div>
-                  <strong>javascript</strong>
+                  <strong>PostgreSql</strong>
+                </li>
+                    <li>
+                  <div class="progress percent100"></div>
+                  <strong>MySQL</strong>
                 </li>
               </ul>
               <!-- /skill-bars -->
@@ -446,14 +450,19 @@
                   <div class="progress percent100"></div>
                   <strong>React.js</strong>
                 </li>
-                <li>
-                  <div class="progress percent100"></div>
-                  <strong>MySQL-PostgreSql</strong>
-                </li>
-                <li>
+                    <li>
                   <div class="progress percent100"></div>
                   <strong>javascript</strong>
                 </li>
+                <li>
+                  <div class="progress percent100"></div>
+                  <strong>PostgreSql</strong>
+                </li>
+                    <li>
+                  <div class="progress percent100"></div>
+                  <strong>MySQL</strong>
+                </li>
+
               </ul>
               <!-- /skill-bars -->
             </div>
